@@ -13,5 +13,23 @@ public class Main {
         System.out.println("Значение переменной d с типом long равно " + d);
         System.out.println("Значение переменной e с типом float равно " + e);
         System.out.println("Значение переменной f с типом double равно " + f);
+
+        System.out.println("Задача 2");
+        e = 27.12f;
+        d = 987678965549L;
+        f = 2.786;
+        boolean x = false;
+        a = 569;
+        c = -159;
+        int a1 = 27897;
+        b = 67;
+        System.out.println("Значение переменной a с типом int равно " + a);
+        System.out.println("Значение переменной a1 с типом int равно " + a1);
+        System.out.println("Значение переменной b с типом byte равно " + b);
+        System.out.println("Значение переменной c с типом short равно " + c);
+        System.out.println("Значение переменной d с типом long равно " + d);
+        System.out.println("Значение переменной e с типом float равно " + e);
+        System.out.println("Значение переменной f с типом double равно " + f);
+        System.out.println("Значение переменной x с типом boolean равно " + x);
     }
 }
