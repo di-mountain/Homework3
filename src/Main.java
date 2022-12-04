@@ -31,5 +31,13 @@ public class Main {
         System.out.println("Значение переменной e с типом float равно " + e);
         System.out.println("Значение переменной f с типом double равно " + f);
         System.out.println("Значение переменной x с типом boolean равно " + x);
+
+        System.out.println("Задача 3");
+        int class1 = 23;
+        int class2 = 27;
+        int class3 = 30;
+        int paper = 480;
+        int paperPerOne = paper / (class1 + class2 + class3);
+        System.out.println("На каждого ученика рассчитано " + paperPerOne + " листов бумаги");
     }
 }
