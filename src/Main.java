@@ -51,5 +51,15 @@ public class Main {
         System.out.println("За 1 сутки машина произвела бутылок " + perfomancePer1day + " штук");
         System.out.println("За 3 суток машина произвела бутылок " + perfomancePer3day + " штук");
         System.out.println("За 1 месяц машина произвела бутылок " + perfomancePer1month + " штук");
+
+        System.out.println("Задача 5");
+        byte summarAmountOfPaint = 120;
+        byte amountOfWhitePaintPerClass = 2;
+        byte amountOfBrownPaintPerClass = 4;
+        int amountOfPaintPerClass = amountOfWhitePaintPerClass + amountOfBrownPaintPerClass;
+        int amountOfClasses = summarAmountOfPaint / amountOfPaintPerClass;
+        int amountOfWhitePaint = amountOfWhitePaintPerClass * amountOfClasses;
+        int amountOfBrownPaint = amountOfBrownPaintPerClass * amountOfClasses;
+        System.out.println("В школе, где " + amountOfClasses + " классов, нужно " + amountOfWhitePaint + " банок белой краски и " + amountOfBrownPaint + " банок коричневой краски");
     }
 }
