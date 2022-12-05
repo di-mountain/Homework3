@@ -83,5 +83,16 @@ public class Main {
         float amountOfDaysToLostWeight_2 = extraWeightKg * 1000f / lostWeightPer1DayGr_2;
         System.out.println("Если спортсмен будет терять в день " + lostWeightPer1DayGr_1 + " граммов, то ему потребуется в среднем " + amountOfDaysToLostWeight_1 + " дней, чтобы скинуть " + extraWeightKg + " килограмм");
         System.out.println("Если спортсмен будет терять в день " + lostWeightPer1DayGr_2 + " граммов, то ему потребуется в среднем " + amountOfDaysToLostWeight_2 + " дней, чтобы скинуть " + extraWeightKg + " килограмм");
+
+        System.out.println("Задача 8");
+        int salaryMashaOld = 67760;
+        int salaryDenisOld = 83690;
+        int salaryKristinaOld = 76230;
+        int salaryMashaNew = salaryMashaOld + salaryMashaOld / 10;
+        int salaryDenisNew = salaryDenisOld + salaryDenisOld / 10;
+        int salaryKristinaNew = salaryKristinaOld + salaryKristinaOld / 10;
+        System.out.println("Маша теперь получает " + salaryMashaNew + " рублей. Годовой доход вырос на " + (12 * (salaryMashaNew - salaryMashaOld)) +  " рублей");
+        System.out.println("Денис теперь получает " + salaryDenisNew + " рублей. Годовой доход вырос на " + (12 * (salaryDenisNew - salaryDenisOld)) +  " рублей");
+        System.out.println("Маша теперь получает " + salaryMashaNew + " рублей. Годовой доход вырос на " + (12 * (salaryKristinaNew - salaryKristinaOld)) +  " рублей");
     }
 }
