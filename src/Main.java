@@ -74,5 +74,14 @@ public class Main {
         int weightCoctailInGr = amountBananas * weight1BananaInGr + milkVolumeInMl / 100 * weightMilk100MlInGr + amountIcecream * weight1IcecreamInGr + amountEggs * weight1EggInGr;
         float weightCoctailInKg = weightCoctailInGr / 1000f;
         System.out.println("Общий вес завтрака составляет " + weightCoctailInGr + " граммов или " + weightCoctailInKg + " килограммов");
+
+        System.out.println("Задача 7");
+        int extraWeightKg = 7;
+        int lostWeightPer1DayGr_1 = 250;
+        int lostWeightPer1DayGr_2 = 500;
+        float amountOfDaysToLostWeight_1 = extraWeightKg * 1000f / lostWeightPer1DayGr_1;
+        float amountOfDaysToLostWeight_2 = extraWeightKg * 1000f / lostWeightPer1DayGr_2;
+        System.out.println("Если спортсмен будет терять в день " + lostWeightPer1DayGr_1 + " граммов, то ему потребуется в среднем " + amountOfDaysToLostWeight_1 + " дней, чтобы скинуть " + extraWeightKg + " килограмм");
+        System.out.println("Если спортсмен будет терять в день " + lostWeightPer1DayGr_2 + " граммов, то ему потребуется в среднем " + amountOfDaysToLostWeight_2 + " дней, чтобы скинуть " + extraWeightKg + " килограмм");
     }
 }
