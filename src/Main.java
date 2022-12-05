@@ -39,5 +39,17 @@ public class Main {
         int paper = 480;
         int paperPerOne = paper / (class1 + class2 + class3);
         System.out.println("На каждого ученика рассчитано " + paperPerOne + " листов бумаги");
+
+        System.out.println("Задача 4");
+        int perfomancePer2min = 16;
+        int perfomancePer1min = perfomancePer2min / 2;
+        int perfomancePer20min = perfomancePer1min * 20;
+        int perfomancePer1day = perfomancePer1min * 60 * 24;
+        int perfomancePer3day = perfomancePer1day * 3;
+        int perfomancePer1month = perfomancePer1day * 30;
+        System.out.println("За 20 минут машина произвела бутылок " + perfomancePer20min + " штук");
+        System.out.println("За 1 сутки машина произвела бутылок " + perfomancePer1day + " штук");
+        System.out.println("За 3 суток машина произвела бутылок " + perfomancePer3day + " штук");
+        System.out.println("За 1 месяц машина произвела бутылок " + perfomancePer1month + " штук");
     }
 }
